@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-import AvailabilityStatus from "./components/AvailabilityStatus";
 
 
 const App = () => {
@@ -21,6 +20,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Test />
       </div>
     </BrowserRouter>
   );

@@ -2,14 +2,14 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles';
-import { SectionWrapper } from '../hoc'
-import { textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 
 const Skills = ({ name, x, y }) => {
 
   return(
-    <motion.div className='flex items-center justify-center rounded-full font-semibold bg-white text-black py-3 px-6 shadow-dark cursor-pointer absolute ' 
+    <motion.div className= {`flex items-center justify-center rounded-full font-semibold bg-white text-black py-3 px-6 shadow-dark cursor-pointer absolute`} 
+         
         whileHover={{scale:1.1}}
         initial={{x:0, y:0}}
         whileInView={{x:x, y:y}}
@@ -22,6 +22,7 @@ const Skills = ({ name, x, y }) => {
 }
 
 const Tech = () => {
+
   return (
     <>
       <p className={styles.sectionSubText}>
@@ -31,7 +32,7 @@ const Tech = () => {
         Skills 👨🏽‍💻.
       </h2>
 
-      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight' >
+      <div className= {`w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight `} >
 
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-yellow-400 text-black p-8 shadow-dark cursor-pointer ' 
         whileHover={{scale:1.05}}
@@ -56,8 +57,8 @@ const Tech = () => {
         <Skills name="typescript" x="20vw" y="20vw" />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SectionWrapper(Tech, "")
 
