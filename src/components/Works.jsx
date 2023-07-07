@@ -6,7 +6,8 @@ import { styles } from '../styles'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc'
-import { github } from '../assets'
+import { github, link } from '../assets'
+
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return(
@@ -28,10 +29,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover' >
             <div
             onClick={() => window.open(source_code_link, "_blank")}
-            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            className='blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-              src={github}
+              src={link}
               alt='github'
               className='w-1/2 h-1/2 object-contain'
               
@@ -74,8 +75,7 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-secondary text[17px] max-w-3xl leading-[30px]'
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, vel, molestias cupiditate quisquam assumenda necessitatibus ea vero voluptate numquam optio ipsa delectus repellendus aliquam quasi temporibus corporis distinctio molestiae recusandae.
-          Qui doloribus magnam magni? Repellendus quis odit pariatur sint id, eligendi corporis sunt culpa soluta quod voluptas nisi vel ducimus vero, vitae quas, inventore voluptatum deleniti eos. Maiores, adipisci praesentium.
+          Here, I highlight some of my best work, demonstrating my expertise and passion in various areas. Each project represents a unique challenge and showcases my skills in design, development, and problem-solving.
         </motion.p>
       </div>
 

@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`} >Konnichiwa! <span className='wave'>👋</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`} >Konnichiwa! <span className='wave collapse md:visible lg:visible'>👋</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           <span className="text-[#915eff]">Ace</span> is <span ref={typedRef}></span>
           </p>
@@ -41,8 +41,11 @@ const Hero = () => {
       <ComputersCanvas />
 
 
-      <div className="relative xs:bottom-10 bottom-32 w-full flex justify-center items-">
+      <div className="relative xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
+            <div className='w-[35px] h-[65px] tap flex justify-center md:invisible lg:invisible' >
+                Tap
+            </div>
             <div className='w-[35px] h-[65px] div arrow1 flex justify-center' >
 
             </div>

@@ -17,14 +17,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    cmg,
+    bssm,
+    bincom,
+    nibbble,
+    mumag,
+    cmgenergy,
+    link,
   } from "../assets";
   
   export const navLinks = [
@@ -118,9 +121,22 @@ import {
   
   const experiences = [
     {
+      title: "Web Developer",
+      company_name: "CMG Energy group",
+      icon: cmg,
+      iconBg: "#E6DEDD",
+      date: "May 2023 - Present",
+      points: [
+        "Developed websites using HTML, CSS, and JavaScript to create visually appealing, mobile-friendly and user-friendly interfaces.",
+        "Utilized WordPress to build and customize websites, ensuring seamless content management and easy maintenance.",
+        "Created e-commerce websites, implementing secure payment gateways, shopping carts, and inventory management systems.",
+        "Collaborated with teams physically and online, using a full range of Google Suite tools to communicate and share data amongst ourselves.",
+      ],
+    },    
+    {
       title: "Mobile App Developer (Trainee)",
       company_name: "Bincom Tech",
-      icon: shopify,
+      icon: bincom,
       iconBg: "#383E56",
       date: "April 2023",
       points: [
@@ -133,7 +149,7 @@ import {
     {
       title: "Logistics Officer",
       company_name: "BSSM NG",
-      icon: meta,
+      icon: bssm,
       iconBg: "#E6DEDD",
       date: "Nov 2021 - Oct 2022",
       points: [
@@ -173,37 +189,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mumag",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "E-commerce products sub-division of CMG Energy group. Implementing secure payment gateways, shopping carts, and inventory management systems.",
       tags: [
         {
-          name: "react",
+          name: "e-commerce",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "WordPress",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
-        {
-          name: "threejs",
-          color: "text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-purple-50",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: mumag,
+      source_code_link: "https://mumag.cmgpgecngfuelequipmenttrade.com.ng",
     },
     {
-      name: "Job IT",
+      name: "nibbble",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A technology focus blog that serves to break down complex tech concepts into easily understandable concepts for readers. Using Content Management System technologies. ",
       tags: [
         {
-          name: "react",
+          name: "CMS",
           color: "blue-text-gradient",
         },
         {
@@ -211,33 +223,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SEO",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: nibbble,
+      source_code_link: "https://nibbble.blog/",
     },
     {
-      name: "Trip Guide",
+      name: "CMG Energy",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple main company website with CMS functionality. Built using modern web technologies such as HTML5, CSS3, and JavaScript.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cmgenergy,
+      source_code_link: "",
     },
   ];
   

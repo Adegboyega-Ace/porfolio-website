@@ -145,6 +145,16 @@
   100% { transform: rotate( 0.0deg) }
 }
 
+.tap{
+  width: 1.5em; 
+  height: 2em; 
+  z-index: 80; 
+  bottom: 15px; 
+  position: absolute; 
+  background-color: transparent;
+  animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+}
+
 .arrow1 {
   width: 2em; 
   height: 2em; 

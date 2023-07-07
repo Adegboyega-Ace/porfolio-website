@@ -48,11 +48,12 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className= " mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
     >
-      <div className=' mb-2 ' >{`< Government name: Adeyeye Adegboyega />`}<br /> {`< Code name: Ace />`}<br/></div>
+      <div className=' mb-2 ' >{`< Government name: Adegboyega />`}<br /> {`< Code name: Ace />`}<br/></div>
       I work as a software developer, specializing in JavaScript, HTML, and CSS. I have experience with widely-used JavaScript frameworks like React, Node.js, and Three.js as well as well-known CSS frameworks like Tailwind CSS and Bootstrap.
       A very big Tech enthusiast and a Tech Savvy.<br/>
       I love discussing about Technologies, and it was that passion that lead me to create <a className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-pink-300' rel={'external'} target={'_blank'} href={"https://nibbble.blog"}><span><strong>nibbble</strong></span></a> 
-      &nbsp; — a tech focused blog where I breaking down complex tech concepts into easily understandable pieces for readers.
+      &nbsp; — a tech focused blog where I breaking down complex tech concepts into easily understandable pieces for readers.<br/>
+      This website was built using the following Technologies; Vite + React.js, three.js, tailwindCSS, framer motion and more. <a className='font-light text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-pink-300' rel={'external'} target={'_blank'} href={"https://github.com/Adegboyega-Ace/porfolio-website.git"}><span><strong>source code</strong></span></a>
       
     </motion.p>
 
