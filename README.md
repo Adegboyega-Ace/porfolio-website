@@ -1,7 +1,5 @@
 # portfolio-website
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 ![Portfolio Website](https://example.com/path/to/your/portfolio/screenshot.png)
 
 This repository contains the code for my personal portfolio website built using ReactJS and Vite. It showcases my projects, skills, and other relevant information to present myself to potential employers or collaborators.
