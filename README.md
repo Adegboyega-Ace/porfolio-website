@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![Portfolio Website](https://example.com/path/to/your/portfolio/screenshot.png)
+![Portfolio Website](src\assets\portfolio.png)
+
 
 This repository contains the code for my personal portfolio website built using ReactJS and Vite. It showcases my projects, skills, and other relevant information to present myself to potential employers or collaborators.
 
@@ -39,7 +40,7 @@ To set up the project locally and run it on your machine, follow these steps:
        cd porfolio-website
     ```
 
-2. **Install dependencies:** Make sure you have [Node.js](nodejs.org) installed on your system. Run the following command to install the project dependencies.
+2. **Install dependencies:** Make sure you have [Node.js](https://nodejs.org/en) installed on your system. Run the following command to install the project dependencies.
 bash
    ```bash
        npm install
@@ -66,10 +67,10 @@ Once the installation is complete, you can use the following commands to work wi
 
 The project is built using the following technologies:
 
- - **[ReactJS](react.dev)** - A JavaScript library for building user interfaces.
- - **[Vite](vitejs.dev)** - A fast build tool and development server for modern web development.
- - **[TailwindCSS](tailwindcss.com)** - An open source CSS framework. 
- - **[Three.js](threejs.org)** - A JavaScript library that allows developers to create 3D graphics for the web. 
+ - **[ReactJS](https://react.dev/)** - A JavaScript library for building user interfaces.
+ - **[Vite](https://vitejs.dev/)** - A fast build tool and development server for modern web development.
+ - **[TailwindCSS](https://tailwindcss.com/)** - An open source CSS framework. 
+ - **[Three.js](https://threejs.org/)** - A JavaScript library that allows developers to create 3D graphics for the web. 
  
 ## Contributing
 
