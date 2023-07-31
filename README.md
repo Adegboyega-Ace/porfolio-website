@@ -1,4 +1,6 @@
-# portfolio-website
+# Portfolio-website
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ![Portfolio Website](https://example.com/path/to/your/portfolio/screenshot.png)
 
