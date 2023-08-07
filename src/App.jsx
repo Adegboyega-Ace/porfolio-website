@@ -7,9 +7,9 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 import ReactGA from "react-ga"
 
-//import.meta.env.VITE_APP_TRACKING_ID
+//
 
-const TRACKING_ID = "UA-264058805-1" //Tracking ID
+const TRACKING_ID = import.meta.env.VITE_APP_TRACKING_ID //Tracking ID
 ReactGA.initialize(TRACKING_ID);
 
 // app
