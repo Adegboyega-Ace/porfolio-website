@@ -7,16 +7,18 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 import ReactGA from "react-ga"
 
-const TRACKING_ID = import.meta.env.VITE_APP_TRACKING_ID //Tracking ID
-ReactGA.initialize(TRACKING_ID);
+//import.meta.env.VITE_APP_TRACKING_ID
 
-useEffect(() => {
-  ReactGA.pageview(window.location.pathname);
-})
+const TRACKING_ID = "UA-264058805-1" //Tracking ID
+ReactGA.initialize(TRACKING_ID);
 
 // app
 
 const App = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  })
+
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
