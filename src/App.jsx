@@ -1,7 +1,20 @@
 import { BrowserRouter } from "react-router-dom";
+import { useEffect } from 'react'
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
+//setting up google analytics
+
+import ReactGA from "react-ga"
+
+const TRACKING_ID = import.meta.env.VITE_APP_TRACKING_ID //Tracking ID
+ReactGA.initialize(TRACKING_ID);
+
+useEffect(() => {
+  ReactGA.pageview(window.location.pathname);
+})
+
+// app
 
 const App = () => {
   return (
